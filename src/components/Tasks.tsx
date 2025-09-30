@@ -12,7 +12,7 @@ const Tasks = () => {
 
   const handleChange = async () => {
     try {
-      const response = await fetch('https://jsonplaceholder.typicode.com/todos');
+      const response = await fetch('https://jsonplaceholder.typicode.com/todos?_limit=10');
       if (!response.ok) {
         throw Error('Falha ao buscar tarefas');
       }
