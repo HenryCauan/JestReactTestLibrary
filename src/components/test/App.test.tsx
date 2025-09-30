@@ -2,7 +2,7 @@ import { render, screen, fireEvent } from "@testing-library/react";
 // render => renderiza o componente
 // screen => busca no componente uma informacao especifica
 // fireEvent => executa uma acao por exemplo um button
-import App from "./App";
+import App from "../../App";
 // Exemplo de tipagem em TypeScript para testes
 
 const sum = (x: number, y: number): number => {
